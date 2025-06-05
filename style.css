@@ -8,13 +8,17 @@
 /* Estilo do body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0a4944;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
     height: 100vh;
-    color: #333;
+    color: #ffffff;
+}
+
+img {
+    max-width: 85%;
 }
 
 /* Container principal que contém os textos */
@@ -37,14 +41,14 @@ body {
 .section h2 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #333;
+    color: #ce4040;
     font-weight: 600;
 }
 
 /* Estilo para os parágrafos */
 .section p {
     font-size: 16px;
-    color: #555;
+    color: #c70a0a;
     line-height: 1.6;
     margin-bottom: 15px; /* Espaço entre parágrafos */
 }
