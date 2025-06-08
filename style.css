@@ -12,13 +12,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 30px;
+    padding: 10px;
     height: 100vh;
     color: #ffffff;
 }
 
+.legend {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 img {
-    max-width: 100%; /* A imagem não ultrapassa o limite da tela */
+    max-width: 80%; /* A imagem não ultrapassa o limite da tela */
     height: auto; /* Mantém a proporção original da imagem */
     border: 5px solid #ffffff;
     border-radius: 10px;
@@ -29,7 +36,7 @@ img {
 /* Container principal que contém os textos */
 .container {
     width: 100%;
-    max-width: 900px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     gap: 30px;
